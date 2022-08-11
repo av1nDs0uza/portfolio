@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+  }
+  h1 {
+    text-align: center;
+  }
+  .blink {
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+  h2 {
+    text-align: left;
+  }
+
+  p {
+    text-align: left;
+  }
+  input  {
+    text-align: center;
+  }
